@@ -1,0 +1,1 @@
+console.log("Ecological Frog iniciado com sucesso.");
