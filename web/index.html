@@ -177,7 +177,7 @@ function show_infobox() {
 }
 
 </script>
-
+    
     <title>travessiaarquivos</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -185,7 +185,7 @@ function show_infobox() {
     <meta name="viewport" content="height=device-height, initial-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-
+    
 
     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
 
@@ -446,6 +446,14 @@ frameborder="1"
         window.frames["iframe"].location = url;
     }
 
+
+        document.getElementById("btn_sair").onclick = function () {
+    // opção 1: voltar página anterior
+    window.history.back();
+
+    // opção 2 (mais segura): redirecionar para um site fixo
+    // window.location.href = "https://seusiteoriginal.com";
+    };
     </script>
 
 </body>
