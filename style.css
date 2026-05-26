@@ -220,31 +220,26 @@ footer{
 
 .play-button {
     display: block;
-    margin: 40px auto; /* centraliza */
-    padding: 18px 50px;
-    font-size: 22px;
+    margin: 50px auto;
+    padding: 20px 60px;
+
+    font-size: 24px;
     font-weight: bold;
 
     color: white;
     background: linear-gradient(135deg, #00c853, #00b0ff);
 
     border: none;
-    border-radius: 14px;
+    border-radius: 16px;
 
     cursor: pointer;
 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 
-    transition: all 0.25s ease;
+    transition: 0.25s ease;
 }
 
-/* efeito hover */
 .play-button:hover {
-    transform: scale(1.08);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
-}
-
-/* efeito ao clicar */
-.play-button:active {
-    transform: scale(0.98);
+    transform: scale(1.1);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
 }
